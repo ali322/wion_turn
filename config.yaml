@@ -1,0 +1,7 @@
+app:
+  publicIP: 154.86.17.19
+  port: 2005
+  users: root=321
+  realm: pion.ly
+  logDir: log
+  isTCP: false

@@ -1,0 +1,16 @@
+[Unit]
+Description=wion turn service
+After=network.target
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=5
+User=root
+Group=root
+WorkingDirectory=/root/wrtc_turn
+Environment="RUST_LOG=aid_ki"
+ExecStart=/root/wrtc_turn/wrtc_turn
+
+[Install]
+WantedBy=multi-user.target
