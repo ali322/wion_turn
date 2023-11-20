@@ -1,4 +1,4 @@
-wrtc turn service [![Build Status](http://10.1.241.35:2021/api/badges/XR-Scene-Platform/wrtc-turn-server/status.svg)](http://10.1.241.35:2021/XR-Scene-Platform/wrtc-turn-server)
+wion turn service
 ===
 
 network relay service for resolve communication of cross network segment
